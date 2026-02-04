@@ -22,8 +22,8 @@
 > python run_tests.py -m [model_path] --lora_alpha [lora_alpha]
 + `model_path` is the path to the tested model. We support:
     + Local models ([vLLM](https://docs.vllm.ai/) inference)
-        + `meta-llama/Llama-3.1-8B-Instruct_SecAlign` (TamedLlama-8B downloaded by `setup.py`): the first fully open model with state-of-the-art prompt injection defense
-        + `meta-llama/Llama-3.3-70B-Instruct_SecAlign` (TamedLlama-70B downloaded by `setup.py`): the first fully open model with state-of-the-art prompt injection defense
+        + `meta-llama/Llama-3.1-8B-Instruct_SecAlign`: the first fully open model with state-of-the-art prompt injection defense
+        + `meta-llama/Llama-3.3-70B-Instruct_SecAlign`: the first fully open model with state-of-the-art prompt injection defense
         + `meta-llama/Llama-3.1-8B-Instruct`
         + `meta-llama/Llama-3.3-70B-Instruct`
         + Other Hugging Face open-weight models may also be natively supported.
