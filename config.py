@@ -1,8 +1,3 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
-# All rights reserved.
-# This source code is licensed under the license found in the
-# LICENSE file in the root directory of this source tree.
-
 IGNORE_INDEX = -100
 MAX_PROMPT_LENGTH = 384 # recommended for DPOTrainer when using self-generated labels to cover >99.8% samples
 MAX_LENGTH = 2048       # recommended for DPOTrainer when using self-generated labels to cover >99.8% samples
